@@ -1,10 +1,10 @@
 # Esp32-CNVG
 
-Cheap night vision goggles with IPD adjustment, based on ESP32.
+Cheap night vision goggles with IPD adjustment, based on ESP32 cam module.
 
 ## Overview
 
-A personal project focused on designing and building modular night vision goggles with adjustable IPD, distributed electronics and trying to make it as cheap as possible. The goggles are built by making two tubular modules, one for each eye, connected with a symmetrical rack and pinion system.
+A personal project focused on designing and building modular night vision goggles with adjustable IPD, easy to solder electronics and trying to make it as cheap as possible. The goggles are built by making two tubular modules, one for each eye, connected with a symmetrical rack and pinion system.
 
 Currently in the planning and design phase.
 
@@ -18,21 +18,19 @@ The camera captures the scene, processes it through the ESP32, and displays it d
 
 ## Mechanical Design
 
-- Two independent optical tubes (one per eye)
-- Central IPD adjustment system
-- Based on a 150mm T8 lead screw (right-left thread) or an alternative rack-and-pinion mechanism
-- 3D printed structure using matte black PLA
+- Two independent tubes (one per eye) for the screen camera and lenses.
+- Central IPD adjustment system based on a 150mm T8 lead screw (right-left thread).
+- 3D printed structure using (matte preferably) black PLA
 - M3 screws and nuts for assembly and reinforcement
 
 ## Power System
 
-- 5V voltage regulator for stable power delivery
-- Battery charging module for Li-ion charging
-- Central power distribution to both modules
+- 5V voltage regulator which turns the 3.3V of the battery into regulated 5V.
+- Battery charging module
 
 ## Concept
 
-Each eye operates as an independent imaging pipeline, but both are mechanically synchronized through the IPD adjustment system. The goal is to build a low-cost, lightweight, and modular night vision-inspired headset using off-the-shelf components.
+Each eye has its own independent image, but both are synchronized through the IPD adjustment system. The goal is to build a cheap, more less lightweight, and modular night vision-inspired goggles using cheap Aliexpress components.
 
 ## Bill of Materials
 
