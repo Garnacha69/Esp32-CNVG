@@ -51,3 +51,5 @@ Each eye operates as an independent imaging pipeline, but both are mechanically 
 ## Total Cost
 
 $56 - $70
+
+<img width="457" height="350" alt="image" src="https://github.com/user-attachments/assets/23991ffb-3bde-455c-a69b-f260f19724b2" />
