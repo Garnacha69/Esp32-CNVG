@@ -4,7 +4,7 @@ Cheap night vision goggles with IPD adjustment, based on ESP32 cam module.
 
 ## Overview
 
-A personal project focused on designing and building modular night vision goggles with adjustable IPD, easy to solder electronics and trying to make it as cheap as possible. The goggles are built by making two tubular modules, one for each eye, connected with a symmetrical rack and pinion system.
+Most DIY NVG goggles out in internet (which are few) either used pricey cameras, have 2 extra innecessary "eyes", were hard to print or used many different screws, and none of them could have the IPD adjusted to provide visual comfort for anyone who wears the goggles. Searching round the internet I found people used the combo of Esp32 cameras with round TFT screens to make them, so I decided to go for that but using my own mechanical IPD system and making them the cheapest I could at least for people building them in Europe. The goal here was to create this functional and easy to mount NVGs with clear instructions for everyone building them, since every other project such us this one is not clearly documented and there is no clear list of parts to buy.
 
 Currently in the planning and design phase.
 
